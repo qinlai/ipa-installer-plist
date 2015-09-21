@@ -25,26 +25,11 @@
 			</dict>
 
 			<key>NSAppTransportSecurity</key>
-
-  <dict>
-
-      <key>NSExceptionDomains</key>
-
-      <dict>
-
-          <key>game.xmdreamsky.com</key>
-
-          <dict>
-
-              <key>NSExceptionAllowsInsecureHTTPLoads</key>
-
-              <false/>
-
-          </dict>
-
-      </dict>
-
-  </dict>
+<dict>
+    <!--Connect to anything (this is probably BAD)-->
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
 
 		</dict>
 	</array>
