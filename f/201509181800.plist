@@ -23,21 +23,29 @@
 				<key>title</key>
 				<string>f</string>
 			</dict>
+
 			<key>NSAppTransportSecurity</key>
-<dict>
-        <key>NSExceptionDomains</key>
-        <dict>
-            <key>xmdreamsky.com</key>
-        <dict>
-            <key>NSIncludesSubdomains</key>
-            <true/>
-                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-            <true/>
-            <key>NSTemporaryExceptionMinimumTLSVersion</key>
-            <string>TLSv1.1</string>
-        </dict>
-    </dict>
-</dict>
+
+  <dict>
+
+      <key>NSExceptionDomains</key>
+
+      <dict>
+
+          <key>game.xmdreamsky.com</key>
+
+          <dict>
+
+              <key>NSExceptionAllowsInsecureHTTPLoads</key>
+
+              <false/>
+
+          </dict>
+
+      </dict>
+
+  </dict>
+
 		</dict>
 	</array>
 </dict>
